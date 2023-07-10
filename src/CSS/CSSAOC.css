@@ -1,0 +1,186 @@
+.white-bg{
+    -fx-background-color: #fff;
+}
+
+/* .green-bg{
+    -fx-background-color:   #adfc03;
+} */
+
+.btnpromen{
+    -fx-background-color:  #639A67;
+    -fx-cursor: hand;
+    -fx-background-radius: 10px;
+    -fx-text-fill: #fff;
+    -fx-font-size: 30px;
+    -fx-font-family: Arial;
+    -fx-font-weight: bold;
+}
+
+.btnpromen:hover{
+    -fx-background-color: #96BB7C;
+    -fx-background-radius: 10px;
+}
+
+.btn:hover{
+    -fx-background-color: #0074e4;
+}
+
+.btnlogin{
+    -fx-background-color:  #639A67;
+    -fx-cursor: hand;
+    -fx-background-radius: 10px;
+    -fx-text-fill: #fff;
+    -fx-font-size: 24px;
+    -fx-font-family: Arial;
+    -fx-font-weight: bold;
+}
+
+.btnlogin:hover{
+    -fx-background-color: #96BB7C;
+    -fx-background-radius: 10px;
+}
+
+.btncreate{
+    -fx-background-color: transperent;
+    -fx-cursor: hand;
+    -fx-text-fill: dodgerblue;
+    -fx-font-size: 24px;
+    -fx-font-family: Arial;
+}
+
+.btncreate:hover{
+    -fx-background-color: transperent;
+}
+
+.btnsee{
+    -fx-background-color: #96BB7C;
+    -fx-cursor: hand;
+    -fx-background-radius: 10px;
+    -fx-border-radius: 10px;
+    -fx-text-fill: white;
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+    -fx-font-family: Arial;
+}
+
+.btnsee:hover{
+    -fx-background-color: #96BB7C;
+}
+
+.back{
+    -fx-background-color: white;
+    -fx-background-radius: 25px;
+    -fx-border-radius: 25px;
+    -fx-cursor: hand;
+}
+
+.txtfield{
+    -fx-background-coior: #000;
+    -fx-border-width: .5px;
+  
+}
+
+.halamanlogin{
+    -fx-background-color: transperent;
+    -fx-border-color: black;
+    -fx-border-width: 0px 0px 2px 0px;
+}
+
+.txtfield:focused{
+    -fx-border-color: linear-gradient(to bottom right, dodgerblue);
+    -fx-border-width: .8px;
+}
+
+.halamankonsumen-bg{
+    -fx-background-color:   #96BB7C;
+    -fx-border-style: hidden solid hidden hidden;
+}
+
+.halamankonsumen-btn{
+    -fx-background-color: transperent;
+    -fx-cursor: hand;
+}
+
+.halamankonsumen1-bg{
+    -fx-background-color:   #96BB7C;
+    -fx-border-style: hidden hidden solid hidden;
+}
+
+.fontcolumn{
+    -fx-font-size: 24px;
+}
+
+.loginradius{
+    -fx-background-color: white;
+    -fx-background-radius: 50px;
+    -fx-border-radius: 50px;
+}
+
+.form{
+    -fx-background-radius: 15px;
+    -fx-border-radius: 15px;
+}
+
+.btndetail{
+    -fx-background-color: transperent;
+    -fx-cursor: hand;
+    -fx-text-fill: dodgerblue;
+    -fx-font-size: 18px;
+    -fx-font-family: Arial;
+}
+
+.btndetail:hover{
+    -fx-background-color: transperent;
+}
+
+.btnsee1{
+    -fx-background-color: #96BB7C;
+    -fx-cursor: hand;
+    -fx-background-radius: 10px;
+    -fx-border-radius: 10px;
+    -fx-text-fill: white;
+    -fx-font-size: 10px;
+    -fx-font-weight: bold;
+    -fx-font-family: Arial;
+}
+
+.btnsee1:hover{
+    -fx-background-color: #96BB7C;
+}
+
+.btnback{
+    -fx-background-color: #96BB7C;
+    -fx-cursor: hand;
+    -fx-background-radius: 10px;
+    -fx-border-radius: 10px;
+    -fx-text-fill: white;
+    -fx-font-size: 32px;
+    -fx-font-weight: bold;
+    -fx-font-family: Arial;
+}
+
+.btnback:hover{
+    -fx-background-color: #96BB7C;
+}
+
+.btn-transperent{
+    -fx-background-color: transperent;
+    -fx-cursor: hand;
+}
+
+.choicebox{
+    -fx-background-color: white;
+    -fx-border-color: #96BB7C;
+    -fx-cursor: hand;
+}
+
+.btndecline{
+    -fx-background-color: #ff3333;
+    -fx-cursor: hand;
+    -fx-background-radius: 10px;
+    -fx-border-radius: 10px;
+    -fx-text-fill: white;
+    -fx-font-size: 32px;
+    -fx-font-weight: bold;
+    -fx-font-family: Arial;
+}

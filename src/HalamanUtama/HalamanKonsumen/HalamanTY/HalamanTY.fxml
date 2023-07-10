@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.Light.Distant?>
+<?import javafx.scene.effect.Lighting?>
+<?import javafx.scene.effect.Shadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="900.0" prefWidth="1600.0" style="-fx-background-color: orange;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="HalamanUtama.HalamanKonsumen.HalamanTY.Page121">
+   <children>
+      <ImageView fitHeight="900.0" fitWidth="1600.0" pickOnBounds="true">
+         <effect>
+            <Lighting>
+               <bumpInput>
+                  <Shadow />
+               </bumpInput>
+               <light>
+                  <Light.Distant />
+               </light>
+            </Lighting>
+         </effect>
+         <image>
+            <Image url="@../../../Gambar/ruben-ramirez-xhKG01FN2uk-unsplash.jpg" />
+         </image>
+      </ImageView>
+      <AnchorPane layoutX="425.0" layoutY="75.0" prefHeight="750.0" prefWidth="750.0" styleClass="loginradius" stylesheets="@../../../CSS/CSSAOC.css">
+         <children>
+            <Label layoutX="225.0" layoutY="22.0" text="TERIMA KASIH" textFill="#96bb7c">
+               <font>
+                  <Font name="Agency FB Bold" size="64.0" />
+               </font>
+            </Label>
+            <Label layoutX="56.0" layoutY="175.0" text="SILAHKAN TUNJUKKIN BUKTI KE KASIR" textFill="#96bb7c">
+               <font>
+                  <Font name="Agency FB Bold" size="50.0" />
+               </font>
+            </Label>
+            <Line endX="157.0" layoutX="375.0" layoutY="110.0" startX="-150.0" />
+            <Label layoutX="90.0" layoutY="248.0" text="DI BAGIAN HALAMAN MY ORDERS !" textFill="#96bb7c">
+               <font>
+                  <Font name="Agency FB Bold" size="50.0" />
+               </font>
+            </Label>
+            <Button fx:id="button1" layoutX="236.0" layoutY="596.0" mnemonicParsing="false" onAction="#back" prefHeight="85.0" prefWidth="279.0" styleClass="btnback" stylesheets="@../../../CSS/CSSAOC.css" text="Back" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

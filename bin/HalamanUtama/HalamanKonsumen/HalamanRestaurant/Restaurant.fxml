@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.Light.Distant?>
+<?import javafx.scene.effect.Lighting?>
+<?import javafx.scene.effect.Shadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="872.0" prefWidth="1317.0" style="-fx-background-color: orange;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="HalamanUtama.HalamanKonsumen.HalamanRestaurant.Page113">
+   <children>
+      <ImageView fitHeight="872.0" fitWidth="1317.0" pickOnBounds="true">
+         <effect>
+            <Lighting>
+               <bumpInput>
+                  <Shadow />
+               </bumpInput>
+               <light>
+                  <Light.Distant />
+               </light>
+            </Lighting>
+         </effect>
+         <image>
+            <Image url="@../../../Gambar/ruben-ramirez-xhKG01FN2uk-unsplash.jpg" />
+         </image>
+      </ImageView>
+      <AnchorPane layoutX="14.0" layoutY="82.0" prefHeight="340.0" prefWidth="397.0" styleClass="loginradius" stylesheets="@../../../CSS/CSSAOC.css">
+         <children>
+            <Label layoutX="87.0" layoutY="12.0" text="J.CO Ambarukmo Plaza">
+               <font>
+                  <Font name="Agency FB Bold" size="28.0" />
+               </font>
+            </Label>
+            <Label layoutX="74.0" layoutY="44.0" prefHeight="25.0" prefWidth="249.0" text="Jl. Laksda Adisucipto, Ambarukmo">
+               <font>
+                  <Font name="Arial" size="16.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="204.0" fitWidth="279.0" layoutX="57.0" layoutY="71.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../Gambar/JCO.jpg" />
+               </image>
+            </ImageView>
+            <Button fx:id="button1" layoutX="57.0" layoutY="290.0" mnemonicParsing="false" onAction="#keJCO" prefHeight="32.0" prefWidth="279.0" styleClass="btnsee" stylesheets="@../../../CSS/CSSAOC.css" text="Detail" />
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="460.0" layoutY="82.0" prefHeight="340.0" prefWidth="397.0" styleClass="loginradius" stylesheets="@../../../CSS/CSSAOC.css">
+         <children>
+            <Label layoutX="74.0" layoutY="12.0" text="Dunkin Donuts Ramai Mall">
+               <font>
+                  <Font name="Agency FB Bold" size="28.0" />
+               </font>
+            </Label>
+            <Label layoutX="53.0" layoutY="44.0" prefHeight="25.0" prefWidth="285.0" text="Jl. Jend. Ahmad Yani No.73, Ngupasan">
+               <font>
+                  <Font name="Arial" size="16.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="204.0" fitWidth="279.0" layoutX="63.0" layoutY="71.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../Gambar/Donuts.jpg" />
+               </image>
+            </ImageView>
+            <Button fx:id="button2" layoutX="65.0" layoutY="290.0" mnemonicParsing="false" onAction="#keDD" prefHeight="32.0" prefWidth="269.0" styleClass="btnsee" stylesheets="@../../../CSS/CSSAOC.css" text="Detail" />
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="906.0" layoutY="82.0" prefHeight="340.0" prefWidth="397.0" styleClass="loginradius" stylesheets="@../../../CSS/CSSAOC.css">
+         <children>
+            <Label layoutX="100.0" layoutY="12.0" text="Roti O' Lempuyangan">
+               <font>
+                  <Font name="Agency FB Bold" size="28.0" />
+               </font>
+            </Label>
+            <Label layoutX="95.0" layoutY="44.0" prefHeight="25.0" prefWidth="208.0" text="Jl. Lempuyangan, Bausasran">
+               <font>
+                  <Font name="Arial" size="16.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="204.0" fitWidth="279.0" layoutX="63.0" layoutY="71.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../Gambar/RotiO.jpg" />
+               </image>
+            </ImageView>
+            <Button fx:id="button3" layoutX="63.0" layoutY="290.0" mnemonicParsing="false" onAction="#keRotiO" prefHeight="32.0" prefWidth="272.0" styleClass="btnsee" stylesheets="@../../../CSS/CSSAOC.css" text="Detail" />
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="14.0" layoutY="468.0" prefHeight="340.0" prefWidth="397.0" styleClass="loginradius" stylesheets="@../../../CSS/CSSAOC.css">
+         <children>
+            <Label layoutX="163.0" layoutY="12.0" text="Rotiboy">
+               <font>
+                  <Font name="Agency FB Bold" size="28.0" />
+               </font>
+            </Label>
+            <Label layoutX="70.0" layoutY="44.0" prefHeight="25.0" prefWidth="257.0" text="Jl. Laksda Adisucipto KM. 6, Depok">
+               <font>
+                  <Font name="Arial" size="16.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="204.0" fitWidth="279.0" layoutX="63.0" layoutY="71.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../Gambar/Rotiboyyy.jpg" />
+               </image>
+            </ImageView>
+            <Button fx:id="button4" layoutX="63.0" layoutY="290.0" mnemonicParsing="false" onAction="#keRotiboy" prefHeight="32.0" prefWidth="272.0" styleClass="btnsee" stylesheets="@../../../CSS/CSSAOC.css" text="Detail" />
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="460.0" layoutY="468.0" prefHeight="340.0" prefWidth="397.0" styleClass="loginradius" stylesheets="@../../../CSS/CSSAOC.css">
+         <children>
+            <Label layoutX="117.0" layoutY="12.0" text="McDonald's Jakal">
+               <font>
+                  <Font name="Agency FB Bold" size="28.0" />
+               </font>
+            </Label>
+            <Label layoutX="74.0" layoutY="44.0" prefHeight="25.0" prefWidth="249.0" text=" Jl. Kaliurang No. KM. 5, Kocoran">
+               <font>
+                  <Font name="Arial" size="16.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="204.0" fitWidth="279.0" layoutX="65.0" layoutY="71.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../Gambar/mc.jpg" />
+               </image>
+            </ImageView>
+            <Button fx:id="button5" layoutX="63.0" layoutY="290.0" mnemonicParsing="false" onAction="#keMCD" prefHeight="32.0" prefWidth="272.0" styleClass="btnsee" stylesheets="@../../../CSS/CSSAOC.css" text="Detail" />
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="906.0" layoutY="468.0" prefHeight="340.0" prefWidth="397.0" styleClass="loginradius" stylesheets="@../../../CSS/CSSAOC.css">
+         <children>
+            <Label layoutX="68.0" layoutY="12.0" text="Burger King Jogja City Mall">
+               <font>
+                  <Font name="Agency FB Bold" size="28.0" />
+               </font>
+            </Label>
+            <Label layoutX="65.0" layoutY="44.0" prefHeight="25.0" prefWidth="264.0" text="Jl. Magelang KM 6, No. 18, Sinduadi">
+               <font>
+                  <Font name="Arial" size="16.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="204.0" fitWidth="279.0" layoutX="61.0" layoutY="71.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../Gambar/bk.jpg" />
+               </image>
+            </ImageView>
+            <Button fx:id="button6" layoutX="62.0" layoutY="290.0" mnemonicParsing="false" onAction="#keBK" prefHeight="32.0" prefWidth="276.0" styleClass="btnsee" stylesheets="@../../../CSS/CSSAOC.css" text="Detail" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

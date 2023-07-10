@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.Light.Distant?>
+<?import javafx.scene.effect.Lighting?>
+<?import javafx.scene.effect.Shadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="872.0" prefWidth="1317.0" style="-fx-background-color: #96BB7C;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="HalamanUtama.HalamanKonsumen.HalamanNotifikasi.Page120">
+    <children>
+      <ImageView fitHeight="872.0" fitWidth="1317.0" pickOnBounds="true">
+         <effect>
+            <Lighting>
+               <bumpInput>
+                  <Shadow />
+               </bumpInput>
+               <light>
+                  <Light.Distant />
+               </light>
+            </Lighting>
+         </effect>
+         <image>
+            <Image url="@../../../Gambar/ruben-ramirez-xhKG01FN2uk-unsplash.jpg" />
+         </image>
+      </ImageView>
+      <Pane layoutY="40.0" prefHeight="127.0" prefWidth="1317.0" style="-fx-background-color: white;" stylesheets="@../../../CSS/CSSAOC.css">
+         <children>
+            <ImageView fitHeight="110.0" fitWidth="165.0" layoutX="35.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../Gambar/Donuts.jpg" />
+               </image>
+            </ImageView>
+            <Label layoutX="187.0" layoutY="5.0" text="Dunkin Donuts Ramai Mall">
+               <font>
+                  <Font name="Arial Bold" size="28.0" />
+               </font>
+            </Label>
+            <Label layoutX="1160.0" layoutY="33.0" text="Order Time : 15:42">
+               <font>
+                  <Font name="Calibri" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="187.0" layoutY="61.0" text="Food Name : Spaggeti Geprek">
+               <font>
+                  <Font name="Calibri" size="24.0" />
+               </font>
+            </Label>
+            <Label layoutX="187.0" layoutY="92.0" text="Status :">
+               <font>
+                  <Font name="Calibri" size="24.0" />
+               </font>
+            </Label>
+            <Label layoutX="266.0" layoutY="89.0" text="Pending" textFill="ORANGE">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Label>
+            <Label layoutX="189.0" layoutY="38.0" text="Jl. Jend. Ahmad Yani No.73, Ngupasan">
+               <font>
+                  <Font name="Arial" size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="1160.0" layoutY="9.0" text="Date : 04/07/2023">
+               <font>
+                  <Font name="Calibri" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="1160.0" layoutY="55.0" text="ID : 6969">
+               <font>
+                  <Font name="Calibri" size="18.0" />
+               </font>
+            </Label>
+         </children></Pane>
+      <Pane layoutY="175.0" prefHeight="127.0" prefWidth="1317.0" style="-fx-background-color: white;" stylesheets="@../../../CSS/CSSAOC.css">
+         <children>
+            <ImageView fitHeight="110.0" fitWidth="165.0" layoutX="35.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../Gambar/mc.jpg" />
+               </image>
+            </ImageView>
+            <Label layoutX="187.0" layoutY="5.0" text="MCDonald's Jakal">
+               <font>
+                  <Font name="Arial Bold" size="28.0" />
+               </font>
+            </Label>
+            <Label layoutX="1160.0" layoutY="33.0" text="Order Time : 18:26">
+               <font>
+                  <Font name="Calibri" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="187.0" layoutY="61.0" text="Food Name : Honey Garlic Chicken Rice">
+               <font>
+                  <Font name="Calibri" size="24.0" />
+               </font>
+            </Label>
+            <Label layoutX="187.0" layoutY="92.0" text="Status :">
+               <font>
+                  <Font name="Calibri" size="24.0" />
+               </font>
+            </Label>
+            <Label layoutX="266.0" layoutY="89.0" text="Pending" textFill="ORANGE">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Label>
+            <Label layoutX="185.0" layoutY="38.0" text=" Jl. Kaliurang No. KM. 5, Kocoran">
+               <font>
+                  <Font name="Arial" size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="1160.0" layoutY="9.0" text="Date : 06/07/2023">
+               <font>
+                  <Font name="Calibri" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="1160.0" layoutY="55.0" text="ID : 7575">
+               <font>
+                  <Font name="Calibri" size="18.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <Pane layoutY="310.0" prefHeight="127.0" prefWidth="1317.0" style="-fx-background-color: white;" stylesheets="@../../../CSS/CSSAOC.css">
+         <children>
+            <ImageView fitHeight="110.0" fitWidth="165.0" layoutX="35.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../Gambar/RotiO.jpg" />
+               </image>
+            </ImageView>
+            <Label layoutX="191.0" layoutY="5.0" text="Roti O' Lempuyangan">
+               <font>
+                  <Font name="Arial Bold" size="28.0" />
+               </font>
+            </Label>
+            <Label layoutX="1160.0" layoutY="33.0" text="Order Time : 10:35">
+               <font>
+                  <Font name="Calibri" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="194.0" layoutY="61.0" text="Food Name : Butter Croissant">
+               <font>
+                  <Font name="Calibri" size="24.0" />
+               </font>
+            </Label>
+            <Label layoutX="194.0" layoutY="92.0" text="Status :">
+               <font>
+                  <Font name="Calibri" size="24.0" />
+               </font>
+            </Label>
+            <Label layoutX="273.0" layoutY="89.0" text="Pending" textFill="ORANGE">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Label>
+            <Label layoutX="194.0" layoutY="38.0" text="Jl. Lempuyangan, Bausasran">
+               <font>
+                  <Font name="Arial" size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="1160.0" layoutY="9.0" text="Date : 07/07/2023">
+               <font>
+                  <Font name="Calibri" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="1160.0" layoutY="55.0" text="ID : 1456">
+               <font>
+                  <Font name="Calibri" size="18.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <Pane layoutY="580.0" prefHeight="127.0" prefWidth="1317.0" style="-fx-background-color: white;" stylesheets="@../../../CSS/CSSAOC.css">
+         <children>
+            <ImageView fitHeight="110.0" fitWidth="165.0" layoutX="35.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../Gambar/bk.jpg" />
+               </image>
+            </ImageView>
+            <Label layoutX="194.0" layoutY="5.0" text="Burger King Jogja City Mall">
+               <font>
+                  <Font name="Arial Bold" size="28.0" />
+               </font>
+            </Label>
+            <Label layoutX="1160.0" layoutY="33.0" text="Order Time : 12:17">
+               <font>
+                  <Font name="Calibri" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="194.0" layoutY="61.0" text="Food Name : Royal Chicken Burger">
+               <font>
+                  <Font name="Calibri" size="24.0" />
+               </font>
+            </Label>
+            <Label layoutX="194.0" layoutY="92.0" text="Status :">
+               <font>
+                  <Font name="Calibri" size="24.0" />
+               </font>
+            </Label>
+            <Label layoutX="273.0" layoutY="89.0" text="Pending" textFill="ORANGE">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Label>
+            <Label layoutX="196.0" layoutY="38.0" text="Jl. Magelang KM 6, No. 18, Sinduadi">
+               <font>
+                  <Font name="Arial" size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="1160.0" layoutY="9.0" text="Date : 11/07/2023">
+               <font>
+                  <Font name="Calibri" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="1160.0" layoutY="55.0" text="ID : 6301">
+               <font>
+                  <Font name="Calibri" size="18.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <Pane layoutY="445.0" prefHeight="127.0" prefWidth="1317.0" style="-fx-background-color: white;" stylesheets="@../../../CSS/CSSAOC.css">
+         <children>
+            <ImageView fitHeight="110.0" fitWidth="165.0" layoutX="35.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../Gambar/bk.jpg" />
+               </image>
+            </ImageView>
+            <Label layoutX="194.0" layoutY="5.0" text="Burger King Jogja City Mall">
+               <font>
+                  <Font name="Arial Bold" size="28.0" />
+               </font>
+            </Label>
+            <Label layoutX="1160.0" layoutY="33.0" text="Order Time : 09:54">
+               <font>
+                  <Font name="Calibri" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="194.0" layoutY="61.0" text="Food Name : Ayam Madura">
+               <font>
+                  <Font name="Calibri" size="24.0" />
+               </font>
+            </Label>
+            <Label layoutX="194.0" layoutY="92.0" text="Status :">
+               <font>
+                  <Font name="Calibri" size="24.0" />
+               </font>
+            </Label>
+            <Label layoutX="273.0" layoutY="89.0" text="Pending" textFill="ORANGE">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Label>
+            <Label layoutX="196.0" layoutY="38.0" text="Jl. Magelang KM 6, No. 18, Sinduadi">
+               <font>
+                  <Font name="Arial" size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="1160.0" layoutY="9.0" text="Date : 10/07/2023">
+               <font>
+                  <Font name="Calibri" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="1160.0" layoutY="55.0" text="ID : 3578">
+               <font>
+                  <Font name="Calibri" size="18.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <Pane layoutY="715.0" prefHeight="127.0" prefWidth="1317.0" style="-fx-background-color: white;" stylesheets="@../../../CSS/CSSAOC.css">
+         <children>
+            <ImageView fitHeight="110.0" fitWidth="165.0" layoutX="35.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../Gambar/mc.jpg" />
+               </image>
+            </ImageView>
+            <Label layoutX="187.0" layoutY="5.0" text="MCDonald's Jakal">
+               <font>
+                  <Font name="Arial Bold" size="28.0" />
+               </font>
+            </Label>
+            <Label layoutX="1160.0" layoutY="33.0" text="Order Time : 12:26">
+               <font>
+                  <Font name="Calibri" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="187.0" layoutY="61.0" text="Food Name : Rica Rica Chicken Rice">
+               <font>
+                  <Font name="Calibri" size="24.0" />
+               </font>
+            </Label>
+            <Label layoutX="187.0" layoutY="92.0" text="Status :">
+               <font>
+                  <Font name="Calibri" size="24.0" />
+               </font>
+            </Label>
+            <Label layoutX="266.0" layoutY="89.0" text="Pending" textFill="ORANGE">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Label>
+            <Label layoutX="185.0" layoutY="38.0" text=" Jl. Kaliurang No. KM. 5, Kocoran">
+               <font>
+                  <Font name="Arial" size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="1160.0" layoutY="9.0" text="Date : 12/07/2023">
+               <font>
+                  <Font name="Calibri" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="1160.0" layoutY="55.0" text="ID : 9246">
+               <font>
+                  <Font name="Calibri" size="18.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+    </children>
+</AnchorPane>

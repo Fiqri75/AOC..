@@ -1,0 +1,9 @@
+{
+    "java.project.sourcePaths": ["src"],
+    "java.project.outputPath": "bin",
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "d:\\MyData_C\\Downloads\\xstream-1.4.20.jar",
+        "d:\\MyData_C\\Downloads\\controlsfx-8.40.14.jar"
+    ]
+}

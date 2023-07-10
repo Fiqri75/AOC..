@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.effect.Light.Distant?>
+<?import javafx.scene.effect.Lighting?>
+<?import javafx.scene.effect.Shadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="872.0" prefWidth="1317.0" style="-fx-background-color: orange;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="HalamanUtama.HalamanKonsumen.HalamanMyOrders.Page112">
+    <children>
+      <ImageView fitHeight="872.0" fitWidth="1317.0" pickOnBounds="true">
+         <effect>
+            <Lighting>
+               <bumpInput>
+                  <Shadow />
+               </bumpInput>
+               <light>
+                  <Light.Distant />
+               </light>
+            </Lighting>
+         </effect>
+         <image>
+            <Image url="@../../../Gambar/ruben-ramirez-xhKG01FN2uk-unsplash.jpg" />
+         </image>
+      </ImageView>
+      <AnchorPane layoutX="33.0" layoutY="33.0" prefHeight="806.0" prefWidth="1252.0" styleClass="loginradius" stylesheets="@../../../CSS/CSSAOC.css">
+         <children>
+            <TableView fx:id="History" layoutX="26.0" layoutY="14.0" prefHeight="775.0" prefWidth="1200.0" styleClass="white-bg">
+              <columns>
+                <TableColumn fx:id="sgNamaRestoran" prefWidth="200.0" style="-fx-background-color: white; -fx-border-color: #F5F5F5; -fx-border-width: 2;" text="Restaurant Name" />
+                  <TableColumn fx:id="sgNamaID" prefWidth="200.0" style="-fx-background-color: white; -fx-border-color: #F5F5F5; -fx-border-width: 2;" text="Food ID" />
+                <TableColumn fx:id="sgNamaMakanan" prefWidth="200.0" style="-fx-background-color: white; -fx-border-color: #F5F5F5; -fx-border-width: 2;" text="Food Name" />
+                  <TableColumn fx:id="sgMasaKadaluwarsa" prefWidth="200.0" style="-fx-background-color: white; -fx-border-color: #F5F5F5; -fx-border-width: 2;" text="Expiration Date" />
+                  <TableColumn fx:id="sgJumlahStock" prefWidth="200.0" style="-fx-background-color: white; -fx-border-color: #F5F5F5; -fx-border-width: 2;" text="Stock Amount" />
+                  <TableColumn fx:id="sgTakeStatus" prefWidth="197.0" style="-fx-background-color: white; -fx-border-color: #F5F5F5; -fx-border-width: 2;" text="Take Status" />
+              </columns>
+            </TableView>
+         </children>
+      </AnchorPane>
+    </children>
+</AnchorPane>
